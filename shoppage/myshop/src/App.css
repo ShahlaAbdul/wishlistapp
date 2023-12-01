@@ -1,0 +1,13 @@
+/* :root {
+  --main-text-color: black;
+  --main-bg-color: white;
+}
+.darkmod{
+  --main-bg-color:black;
+  --main-text-color:white;
+}
+body{
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color) ;
+} */
+

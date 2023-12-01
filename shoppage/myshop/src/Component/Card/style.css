@@ -1,0 +1,110 @@
+.mybasket {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.product{
+    
+    display: flex;
+    justify-content: space-evenly;
+  
+   
+}
+.basket_element{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+    margin: 20px;
+    
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(168, 189, 208); 
+    background-color: rgb(215, 239, 250);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+
+    
+}
+span{
+    color: red;
+    text-align: start;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+
+.add{
+
+    background-color: white;
+        color: rgb(23, 23, 86);
+    width: 100px;
+    border-radius: 20px;
+    padding:    5px;
+    cursor: pointer;
+}
+.add:hover{
+        background-color: rgb(132, 175, 189);
+        color: wheat;
+   
+}
+
+.newbasket{
+    display: grid;
+   grid-template-columns: auto auto auto ;
+    border: 1px solid black;
+    width: 60%;
+}
+.new_basket_element{
+    width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    
+        margin: 20px;
+    
+        border-radius: 20px;
+        padding: 10px;
+        border: 1px solid rgb(168, 189, 208);
+        background-color: rgb(215, 239, 250);
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.newimg{
+    width: 100px;
+    height: 100px;
+}
+.heart{
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid #217cc6;
+    color: #217cc6 ;
+    margin: 10px;
+    &:hover{
+        background-color: rgb(0, 68, 255);
+        color: white;
+        
+    }
+}
+.newheart{
+    width: 30px;
+        height: 30px;
+        font-size: 18px;
+        border-radius: 50%;
+        background-color: rgb(0, 68, 255);
+        color: white;
+        
+        margin: 10px;
+        &:hover { 
+                border: 1px solid #217cc6;
+                    color: #217cc6;
+        
+            }
+
+
+}

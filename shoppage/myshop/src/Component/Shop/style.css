@@ -1,0 +1,14 @@
+
+.head{
+    width: 100%;
+   font-size: 30px;
+    background-color: rgb(222, 204, 204);
+    text-align: center;
+    padding: 30px ;
+    margin: 0 auto;
+}
+.darkmod{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+}
